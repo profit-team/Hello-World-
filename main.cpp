@@ -6,23 +6,40 @@
 #include   <string.h>
  
  
-char sz[19]="SONY_Pictures";
+void foo_1(char *psz);  
+ 
+ 
+
 
 
 //////////////////////////////////////////////////////////
 int main()                                              //
 {
 
-    int n = strlen(sz); 
+    char sz[19]="SONY_Pictures";
+  
+    foo_1(sz);  
+}
+
+
+//  Ёта функци€ печатает строку несколько раз, измен€€ еЄ длину.
+//////////////////////////////////////////////////////////
+void foo_1(char *psz)                                   //
+{
+	
+    int n = strlen(psz); 
      
     for(int i=0; i < n; i++)
     {
    
-        printf("%s\n", &sz[i]);
-    }
-    
-    printf("Hello, World!\n");
+        printf("%s\n", &psz[i]);
+    }	
 }
+
+
+
+
+
 
 
 
