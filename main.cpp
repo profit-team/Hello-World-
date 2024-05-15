@@ -31,6 +31,8 @@ int main()                                              //
    
         printf("%s\n", &sz[i]);
     }
+    
+    printf("Hello, World!\n");
 }
 
 
