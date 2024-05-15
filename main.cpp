@@ -42,7 +42,7 @@ void foo_1(char *psz)                                   //
 void foo_2(char *psz)                                   //
 {
 	
-	int n = strlen(psz); 
+    int n = strlen(psz); 
 	 
     for(int i = n-1; i >= 0; i--) {
    
