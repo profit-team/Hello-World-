@@ -22,7 +22,7 @@ int main()                                              //
 }
 
 
-//  Ёта функци€ печатает строку несколько раз, измен€€ еЄ длину.
+//  This function prints a string several times, changing its length.
 //////////////////////////////////////////////////////////
 void foo_1(char *psz)                                   //
 {
