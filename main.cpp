@@ -8,7 +8,7 @@
  
 void foo_1(char *psz);  
 void foo_2(char *psz);  
-
+void foo_3(         );  
 
 
 //////////////////////////////////////////////////////////
@@ -18,7 +18,8 @@ int main()                                              //
     char sz[19]="SONY_Pictures";
   
     foo_1(sz);  
-    foo_2(sz);  
+    foo_2(sz); 
+    foo_3(  ); 
 }
 
 
@@ -48,7 +49,12 @@ void foo_2(char *psz)                                   //
 
 
 
+//////////////////////////////////////////////////////////                                           From Core i3 530
+void foo_3()                                            //
+{
 
+     printf("From Core i3 530\n");
+}
 
 
 
