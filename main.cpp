@@ -22,32 +22,28 @@ int main()                                              //
 }
 
 
-//  This function prints a string several times, changing its length.
-//////////////////////////////////////////////////////////
-void foo_1(char *psz)                                   //
+
+//////////////////////////////////////////////////////////      This function prints a string several times, changing  
+void foo_1(char *psz)                                   //                                                 its length.
 {
 	
-    int n = strlen(psz); 
+     int n = strlen(psz); 
      
-    for(int i=0; i < n; i++)
-    {
-   
-        printf("%s\n", &psz[i]);
-    }	
+     for(int i=0; i < n; i++)   printf("%s\n", &psz[i]);
 }
 
 
-//  Print the line backwards
-//////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////                                   Print the line backwards
 void foo_2(char *psz)                                   //
 {
 	
-    int n = strlen(psz); 
+     int n = strlen(psz); 
 	 
-    for(int i = n-1; i >= 0; i--) {
+     for(int i = n-1; i >= 0; i--) {
    
-        printf("%c", psz[i]);
-    }	printf("\n");
+         printf("%c", psz[i]);
+     }	 printf("\n");
 }
 
 
