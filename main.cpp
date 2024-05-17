@@ -53,7 +53,7 @@ void foo_2(char *psz)                                   //
 void foo_3()                                            //
 {
 
-     printf("From Core i3 530\n");
+     printf("From Core i3 530, 1th\n");
 }
 
 
